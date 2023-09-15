@@ -141,9 +141,16 @@ body{
 
 }
 .section1{
-  margin-bottom: 2400px;
+  margin-bottom: 600px;
   
 }
+@media screen and (max-width: 800px) {
+  
+  .section1{
+    height:auto;
+    margin-bottom:350px;
+  }
+ }
 
 .box {
     height: 500px
